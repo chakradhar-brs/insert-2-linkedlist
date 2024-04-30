@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 156, 207);
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  h1 {
+    text-align: center;
+    color: rgb(9, 32, 247);
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(83, 223, 211);
+    background-color: rgb(3, 23, 114);
+  }
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+  }
+  label {
+    color: rgb(156, 58, 58);
+  }
+  #result {
+    color: rgb(184, 196, 20);
+  }
